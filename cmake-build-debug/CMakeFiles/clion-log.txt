@@ -1,0 +1,37 @@
+"E:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\hanjiang\Armor-identification
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/opencv/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/opencv/mingw64/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+CMake Warning at D:/opencv/new_build/install/OpenCVConfig.cmake:166 (message):
+  Found OpenCV Windows Pack but it has no binaries compatible with your
+  configuration.
+
+  You should manually point CMake variable OpenCV_DIR to your build of OpenCV
+  library.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Error at CMakeLists.txt:8 (find_package):
+  Found package configuration file:
+
+    D:/opencv/new_build/install/OpenCVConfig.cmake
+
+  but it set OpenCV_FOUND to FALSE so package "OpenCV" is considered to be
+  NOT FOUND.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/hanjiang/Armor-identification/cmake-build-debug/CMakeFiles/CMakeOutput.log".

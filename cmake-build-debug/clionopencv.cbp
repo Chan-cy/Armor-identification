@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="clionopencv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv_455\;CMake Files\..\..\opencv_455\new_build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/hanjiang/Armor-identification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clionopencv">
+				<Option output="D:/hanjiang/Armor-identification/cmake-build-debug/clionopencv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hanjiang/Armor-identification/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/opencv_455/new_build"/>
+					<Add directory="D:/opencv_455/source/include"/>
+					<Add directory="D:/opencv_455/source/modules/core/include"/>
+					<Add directory="D:/opencv_455/source/modules/flann/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/hdf/include"/>
+					<Add directory="D:/opencv_455/source/modules/imgproc/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/intensity_transform/include"/>
+					<Add directory="D:/opencv_455/source/modules/ml/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/phase_unwrapping/include"/>
+					<Add directory="D:/opencv_455/source/modules/photo/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/plot/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/quality/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/reg/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/surface_matching/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/xphoto/include"/>
+					<Add directory="D:/opencv_455/source/modules/dnn/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dnn_superres/include"/>
+					<Add directory="D:/opencv_455/source/modules/features2d/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/fuzzy/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/hfs/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/img_hash/include"/>
+					<Add directory="D:/opencv_455/source/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/line_descriptor/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/saliency/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/text/include"/>
+					<Add directory="D:/opencv_455/source/modules/videoio/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/barcode/include"/>
+					<Add directory="D:/opencv_455/source/modules/calib3d/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/datasets/include"/>
+					<Add directory="D:/opencv_455/source/modules/highgui/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/mcc/include"/>
+					<Add directory="D:/opencv_455/source/modules/objdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/rapid/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/rgbd/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/shape/include"/>
+					<Add directory="D:/opencv_455/source/modules/stitching/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/structured_light/include"/>
+					<Add directory="D:/opencv_455/source/modules/ts/include"/>
+					<Add directory="D:/opencv_455/source/modules/video/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/videostab/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/ximgproc/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/xobjdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/aruco/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/bgsegm/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/bioinspired/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/ccalib/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dnn_objdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dpm/include"/>
+					<Add directory="D:/opencv_455/source/modules/gapi/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/optflow/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/superres/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/tracking/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/stereo/include"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clionopencv"/>
+					<CompileFile command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clionopencv/fast">
+				<Option output="D:/hanjiang/Armor-identification/cmake-build-debug/clionopencv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hanjiang/Armor-identification/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/opencv_455/new_build"/>
+					<Add directory="D:/opencv_455/source/include"/>
+					<Add directory="D:/opencv_455/source/modules/core/include"/>
+					<Add directory="D:/opencv_455/source/modules/flann/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/hdf/include"/>
+					<Add directory="D:/opencv_455/source/modules/imgproc/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/intensity_transform/include"/>
+					<Add directory="D:/opencv_455/source/modules/ml/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/phase_unwrapping/include"/>
+					<Add directory="D:/opencv_455/source/modules/photo/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/plot/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/quality/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/reg/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/surface_matching/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/xphoto/include"/>
+					<Add directory="D:/opencv_455/source/modules/dnn/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dnn_superres/include"/>
+					<Add directory="D:/opencv_455/source/modules/features2d/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/fuzzy/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/hfs/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/img_hash/include"/>
+					<Add directory="D:/opencv_455/source/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/line_descriptor/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/saliency/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/text/include"/>
+					<Add directory="D:/opencv_455/source/modules/videoio/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/barcode/include"/>
+					<Add directory="D:/opencv_455/source/modules/calib3d/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/datasets/include"/>
+					<Add directory="D:/opencv_455/source/modules/highgui/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/mcc/include"/>
+					<Add directory="D:/opencv_455/source/modules/objdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/rapid/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/rgbd/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/shape/include"/>
+					<Add directory="D:/opencv_455/source/modules/stitching/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/structured_light/include"/>
+					<Add directory="D:/opencv_455/source/modules/ts/include"/>
+					<Add directory="D:/opencv_455/source/modules/video/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/videostab/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/ximgproc/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/xobjdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/aruco/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/bgsegm/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/bioinspired/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/ccalib/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dnn_objdetect/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/dpm/include"/>
+					<Add directory="D:/opencv_455/source/modules/gapi/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/optflow/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/superres/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/tracking/include"/>
+					<Add directory="D:/opencv_455/opencv_contrib-4.5.5/modules/stereo/include"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/opencv/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clionopencv/fast"/>
+					<CompileFile command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/hanjiang/Armor-identification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/hanjiang/Armor-identification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opencv/mingw64/bin/mingw32-make.exe -f &quot;D:/hanjiang/Armor-identification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/hanjiang/Armor-identification/main.cpp">
+			<Option target="clionopencv"/>
+		</Unit>
+		<Unit filename="D:/hanjiang/Armor-identification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/hanjiang/Armor-identification/../../opencv_455/new_build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv_455\new_build\"/>
+		</Unit>
+		<Unit filename="D:/hanjiang/Armor-identification/../../opencv_455/new_build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv_455\new_build\"/>
+		</Unit>
+		<Unit filename="D:/hanjiang/Armor-identification/../../opencv_455/new_build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv_455\new_build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
